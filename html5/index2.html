@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+</head>
+<style>
+    .container div{
+        
+        border: 5px  solid tomato;
+        height: 50px;
+        width: 200px;
+        font-size: 2em;
+        border-radius: 10px;
+        border-collapse: collapse;
+        padding: 20px;
+        gap: 30px;
+        text-align: center;
+        background-color:aqua;
+        
+    }
+    .container{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+       
+        
+    }
+    
+
+    .box-container{
+        display: flex;
+        gap: 30px;
+        text-align: center;
+        
+    }
+    .box-container div{
+        border: 5px solid tomato;
+        height: 50px;
+        width: 200px;
+        font-size: 2em;
+        border-radius: 10px;
+        border-collapse: collapse;
+        padding: 20px;
+        background-color: rgba(255, 0, 170, 0.275);
+        
+    }
+    .box-container2{
+        display: flex;
+        gap: 30px;
+
+       
+    }   
+    .box-container2 div{
+        border: 5px solid tomato;
+        height: 50px;
+        width: 200px;
+        font-size: 2em;
+        border-radius: 10px;
+        border-collapse: collapse;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(136, 0, 255, 0.275);
+    }
+    .box-container3{
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    .box-container3 div{
+        border: 5px solid tomato;
+        height: 50px;
+        width: 200px;
+        font-size: 2em;
+        border-radius: 10px;
+        border-collapse: collapse;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(0, 255, 255, 0.275);
+    }
+    
+    
+</style>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="item"> Item 1 </div>
+            <div class="item"> Item 2 </div>
+            <div class="item"> Item 3 </div>
+            <div class="item"> Item 4 </div>
+            <div class="item"> Item 5 </div>   
+        </div>
+
+        <div class="box-container">
+            <div class="box1"> Box 1 </div>
+            <div class="box2"> Box 2 </div>
+            <div class="box3"> Box 3 </div>
+            <div class="box4"> Box 4 </div>
+            <div class="box5"> Box 5 </div>
+        </div>
+
+        <div class="box-container2">
+            <div class="box1">1</div>
+            <div class="box2">2</div>
+            <div class="box3">3</div>
+            <div class="box4">4</div>
+            <div class="box5">5</div>
+        </div>
+
+        <div class="box-container3">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+        </div>
+
+    </main> 
+
+    <footer>
+
+    </footer>
+</body>
+</html>
